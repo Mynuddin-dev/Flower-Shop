@@ -213,3 +213,105 @@ header{
      flex-direction: column;
      align-items: center;
 }
+
+.fourth-section{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    /* background: #000000; */
+    padding: 0px ;
+}
+.fourth-section img{
+    width: 300px;
+    height: 350px;
+}
+.fourth-section-image{
+    display: flex;
+    /* background: #9b9797; */
+    /* padding: 0px 100px; */
+    gap: 20px;
+}
+
+.last-section{
+    background-image: url("../Flower Asset/Rectangle 9.png");
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1270px;
+    height: 400px;
+
+    margin-left: auto;
+    margin-right: auto;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    margin-top: 100px;
+}
+
+.info{
+
+    display: flex;
+    align-items: center;
+    gap:20px;
+    width: 900px;
+}
+
+.info input[type="email"]{
+    width: 700px;
+    /* height: 6px; */
+
+    padding: 18px 35px;
+    color: #757575;
+    border-radius: 8px;
+    background: #FFF;
+    border: 0;
+    width: 100%;
+}
+
+.footer-container{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #000000;
+    padding: 50px 100px;
+    color: #FFF;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    gap: 25px;
+    padding: 120px 0px ;
+}
+.footer-title{
+    color: #ffffff;
+    font-family: Lato;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.footer-title .osamajik{
+    color: #E55473;
+}
+
+.footer-description{
+    width: 625px;
+    text-align: center;
+
+}
+
+.copyright{
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
